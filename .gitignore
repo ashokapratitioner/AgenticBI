@@ -1,0 +1,38 @@
+# ── Secrets & Credentials ──
+service-account.json
+*.json
+!package.json
+.env
+.env.*
+!.env.example
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# ── IDE ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Streamlit ──
+.streamlit/secrets.toml
+
+# ── Reports (generated locally) ──
+*.html
+!README.md
